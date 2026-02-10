@@ -21,7 +21,7 @@ const details = [
 
 export function CourseDetails() {
   return (
-    <SectionWrapper className="px-4 py-20 sm:py-28">
+    <SectionWrapper className="px-4 py-10 sm:py-14">
       <div className="mx-auto max-w-4xl">
         <Divider />
 

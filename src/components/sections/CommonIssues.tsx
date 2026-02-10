@@ -22,7 +22,7 @@ const issues = [
 
 export function CommonIssues() {
   return (
-    <SectionWrapper className="px-4 py-20 sm:py-28">
+    <SectionWrapper className="px-4 py-10 sm:py-14">
       <div className="mx-auto max-w-4xl">
         <div className="grid gap-4 sm:grid-cols-2">
           {issues.map((issue) => (

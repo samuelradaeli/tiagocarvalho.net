@@ -10,7 +10,7 @@ const nots = [
 
 export function Differentials() {
   return (
-    <SectionWrapper className="px-4 py-24 sm:py-32">
+    <SectionWrapper className="px-4 py-10 sm:py-14">
       <div className="mx-auto max-w-5xl">
         <Divider />
 

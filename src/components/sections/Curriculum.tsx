@@ -65,7 +65,7 @@ export function Curriculum() {
   const visibleSessions = expanded ? sessions : sessions.slice(0, 10);
 
   return (
-    <SectionWrapper id="curriculum" className="px-4 py-20 sm:py-28">
+    <SectionWrapper id="curriculum" className="px-4 py-10 sm:py-14">
       <div className="mx-auto max-w-4xl">
         <Divider />
 

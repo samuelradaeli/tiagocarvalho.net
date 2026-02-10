@@ -16,7 +16,7 @@ const guarantees = [
 
 export function Pricing() {
   return (
-    <SectionWrapper id="preco" className="px-4 py-20 sm:py-28">
+    <SectionWrapper id="preco" className="px-4 py-10 sm:py-14">
       <div className="mx-auto max-w-3xl">
         <Divider />
 
