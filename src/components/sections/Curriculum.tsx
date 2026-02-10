@@ -69,8 +69,9 @@ export function Curriculum() {
       <div className="mx-auto max-w-4xl">
         <Divider />
 
-        <h2 className="text-center font-heading text-2xl font-bold text-foreground sm:text-3xl md:text-4xl">
-          As 52 Sessões
+        <h2 className="text-center impact-text font-heading">
+          <span className="text-foreground">As</span>{" "}
+          <span className="text-gradient-gold">52 Sessões.</span>
         </h2>
 
         <div className="mt-12 space-y-2">

@@ -75,8 +75,8 @@ export function Testimonials() {
       <div className="mx-auto max-w-6xl">
         <Divider />
 
-        <h2 className="text-center font-heading text-2xl font-bold text-foreground sm:text-3xl md:text-4xl">
-          Resultados Reais.{" "}
+        <h2 className="text-center impact-text font-heading">
+          <span className="text-foreground">Resultados Reais.</span>{" "}
           <span className="text-gradient-gold">Gente de Verdade.</span>
         </h2>
 

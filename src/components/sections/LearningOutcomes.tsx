@@ -17,8 +17,9 @@ export function LearningOutcomes() {
       <div className="mx-auto max-w-5xl">
         <Divider />
 
-        <h2 className="text-center font-heading text-3xl font-bold text-foreground sm:text-4xl md:text-5xl">
-          Você vai aprender a:
+        <h2 className="text-center impact-text font-heading">
+          <span className="text-foreground">Você vai</span>{" "}
+          <span className="text-gradient-gold">aprender a:</span>
         </h2>
 
         <div className="mt-14 space-y-5">

@@ -25,8 +25,9 @@ export function CourseDetails() {
       <div className="mx-auto max-w-4xl">
         <Divider />
 
-        <h2 className="text-center font-heading text-2xl font-bold text-foreground sm:text-3xl md:text-4xl">
-          O que está incluso
+        <h2 className="text-center impact-text font-heading">
+          <span className="text-foreground">O que está</span>{" "}
+          <span className="text-gradient-gold">incluso.</span>
         </h2>
 
         <div className="mt-12 space-y-4">
