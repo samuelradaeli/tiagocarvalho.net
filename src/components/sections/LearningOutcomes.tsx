@@ -33,7 +33,7 @@ export function LearningOutcomes() {
                 <span className="text-gradient-gold font-heading text-sm font-bold uppercase tracking-widest sm:text-base">
                   {outcome.highlight}
                 </span>
-                <p className="mt-1 text-base font-medium text-foreground sm:text-lg">
+                <p className="mt-1 font-heading text-base font-medium text-foreground sm:text-lg">
                   {outcome.text}
                 </p>
               </div>

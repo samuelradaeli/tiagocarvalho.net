@@ -33,7 +33,7 @@ export function Pricing() {
             </span>
           </div>
 
-          <div className="mt-8 space-y-2 text-sm text-muted sm:text-base">
+          <div className="mt-8 space-y-2 font-heading text-sm text-muted sm:text-base">
             <p>
               Sim. Só{" "}
               <span className="font-semibold text-foreground">R$497</span>.
@@ -63,7 +63,7 @@ export function Pricing() {
         </div>
 
         <div className="mt-8 rounded-xl border border-surface-light bg-surface/50 p-6 text-center">
-          <p className="text-sm text-muted sm:text-base">
+          <p className="font-heading text-sm text-muted sm:text-base">
             Se você já foi aluno, tem um presente esperando por você.
             <br />
             Chama no WhatsApp no botão abaixo para receber um{" "}

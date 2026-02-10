@@ -31,7 +31,7 @@ export function CommonIssues() {
               className="flex items-start gap-4 rounded-lg border border-surface-light bg-surface/50 p-5 transition-colors hover:border-gold/20"
             >
               <issue.icon className="mt-0.5 h-5 w-5 shrink-0 text-gold" />
-              <p className="text-sm leading-relaxed text-muted sm:text-base">
+              <p className="font-heading text-sm leading-relaxed text-muted sm:text-base">
                 {issue.text}
               </p>
             </div>

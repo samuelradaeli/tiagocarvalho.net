@@ -14,7 +14,7 @@ export function ValueProposition() {
           Isso não é um curso, é um mapa de saída.
         </p>
 
-        <p className="mx-auto mt-10 max-w-2xl text-lg text-muted sm:text-xl">
+        <p className="mx-auto mt-10 max-w-2xl font-heading text-lg text-muted sm:text-xl">
           Mais de{" "}
           <span className="text-gradient-gold font-bold text-2xl sm:text-3xl">600+</span>{" "}
           pessoas já passaram por aqui.

@@ -33,10 +33,10 @@ export function PainPoints() {
               className="group rounded-xl border border-gold/10 bg-surface p-8 transition-all duration-300 hover:border-gold/30 hover:shadow-lg hover:shadow-gold/5"
             >
               <point.icon className="mb-5 h-8 w-8 text-gold transition-transform duration-300 group-hover:scale-110" />
-              <h3 className="font-heading mb-3 text-lg font-semibold text-foreground">
+              <h3 className="font-heading mb-3 text-lg font-bold text-foreground">
                 {point.title}
               </h3>
-              <p className="text-sm leading-relaxed text-muted">
+              <p className="font-heading text-sm leading-relaxed text-muted">
                 {point.description}
               </p>
             </div>

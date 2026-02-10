@@ -39,7 +39,7 @@ export function CourseDetails() {
               <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-gold/30 bg-gold/10">
                 <detail.icon className="h-5 w-5 text-gold" />
               </div>
-              <p className="text-sm font-medium text-foreground sm:text-base">
+              <p className="font-heading text-sm font-medium text-foreground sm:text-base">
                 {detail.text}
               </p>
             </div>

@@ -20,7 +20,7 @@ export function Hero() {
           </span>
         </h1>
 
-        <div className="mt-12 space-y-4 text-lg text-muted sm:text-xl md:text-2xl">
+        <div className="mt-12 space-y-4 font-heading text-lg text-muted sm:text-xl md:text-2xl">
           <p>Ansiedade que <span className="font-semibold text-foreground">não passa.</span></p>
           <p>Procrastinação que <span className="font-semibold text-foreground">corrói sua confiança.</span></p>
           <p>Vícios silenciosos que te deixam com <span className="font-semibold text-foreground">vergonha de si mesmo.</span></p>

@@ -85,7 +85,7 @@ export function Curriculum() {
               </div>
               <div className="flex items-center gap-2">
                 <Scroll className="h-4 w-4 text-muted" />
-                <span className="text-sm text-foreground">{session}</span>
+                <span className="font-heading text-sm text-foreground">{session}</span>
               </div>
             </div>
           ))}
