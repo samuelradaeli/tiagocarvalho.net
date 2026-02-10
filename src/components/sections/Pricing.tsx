@@ -20,15 +20,15 @@ export function Pricing() {
       <div className="mx-auto max-w-3xl">
         <Divider />
 
-        <h2 className="text-center font-heading text-2xl font-bold text-foreground sm:text-3xl md:text-4xl">
-          Acesso Vitalício
+        <h2 className="text-center impact-text font-heading">
+          <span className="text-gradient-gold">Acesso Vitalício.</span>
         </h2>
 
-        <div className="mt-12 rounded-2xl border border-gold/20 bg-surface p-8 text-center sm:p-12">
-          <p className="text-sm text-muted line-through">R$ 1.077</p>
-          <div className="mt-2 flex items-baseline justify-center gap-2">
-            <span className="text-sm text-muted">por</span>
-            <span className="font-heading text-5xl font-bold text-gradient-gold sm:text-6xl">
+        <div className="mt-12 rounded-2xl border border-gold/30 bg-surface p-8 text-center sm:p-12">
+          <p className="text-base text-muted line-through sm:text-lg">R$ 1.077</p>
+          <div className="mt-3 flex items-baseline justify-center gap-3">
+            <span className="text-base text-muted">por</span>
+            <span className="font-heading text-6xl font-bold text-gradient-gold sm:text-7xl md:text-8xl">
               R$497
             </span>
           </div>

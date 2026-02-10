@@ -7,10 +7,10 @@ export function Hero() {
   return (
     <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-4 pt-20 text-center">
       {/* Subtle radial glow */}
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(212,175,55,0.06)_0%,transparent_70%)]" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(240,185,11,0.08)_0%,transparent_70%)]" />
 
-      <div className="relative z-10 mx-auto max-w-4xl">
-        <h1 className="font-heading text-3xl font-bold leading-tight tracking-tight sm:text-4xl md:text-5xl lg:text-6xl">
+      <div className="relative z-10 mx-auto max-w-5xl">
+        <h1 className="impact-text font-heading">
           <span className="text-gradient-gold">
             Você sente que tem algo errado,
           </span>
@@ -20,18 +20,18 @@ export function Hero() {
           </span>
         </h1>
 
-        <div className="mt-10 space-y-3 text-base text-muted sm:text-lg md:text-xl">
-          <p>Ansiedade que não passa</p>
-          <p>Procrastinação que corrói sua confiança</p>
-          <p>Vícios silenciosos que te deixam com vergonha de si mesmo</p>
+        <div className="mt-12 space-y-4 text-lg text-muted sm:text-xl md:text-2xl">
+          <p>Ansiedade que <span className="font-semibold text-foreground">não passa.</span></p>
+          <p>Procrastinação que <span className="font-semibold text-foreground">corrói sua confiança.</span></p>
+          <p>Vícios silenciosos que te deixam com <span className="font-semibold text-foreground">vergonha de si mesmo.</span></p>
         </div>
 
-        <p className="mt-8 font-heading text-sm italic text-gold/70 sm:text-base">
+        <p className="mt-10 font-heading text-base italic text-gold/80 sm:text-lg">
           Um ciclo que parece inquebrável, mas não precisa ser seu destino
           final…
         </p>
 
-        <div className="mt-12">
+        <div className="mt-14">
           <Button href={HOTMART_LINK} variant="primary" size="lg">
             CLIQUE PARA LIBERAR ACESSO ÀS 52 AULAS
           </Button>

@@ -3,34 +3,39 @@ import { Divider } from "@/components/ui/Divider";
 import { Crosshair, Swords, RotateCcw, Sunrise, Mountain } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
-const outcomes: { icon: LucideIcon; text: string }[] = [
-  { icon: Crosshair, text: "Reconstruir seu FOCO e força de vontade" },
-  { icon: Swords, text: "Dominar seus desejos e impulsos" },
-  { icon: RotateCcw, text: "Vencer o ciclo prazer-culpa-sofrimento" },
-  { icon: Sunrise, text: "Retomar propósito e clareza" },
-  { icon: Mountain, text: "Se tornar a versão mais forte que você sabe que existe aí dentro" },
+const outcomes: { icon: LucideIcon; text: string; highlight: string }[] = [
+  { icon: Crosshair, highlight: "FOCO", text: "Reconstruir seu foco e força de vontade" },
+  { icon: Swords, highlight: "DOMÍNIO", text: "Dominar seus desejos e impulsos" },
+  { icon: RotateCcw, highlight: "LIBERDADE", text: "Vencer o ciclo prazer-culpa-sofrimento" },
+  { icon: Sunrise, highlight: "PROPÓSITO", text: "Retomar propósito e clareza" },
+  { icon: Mountain, highlight: "FORÇA", text: "Se tornar a versão mais forte que você sabe que existe aí dentro" },
 ];
 
 export function LearningOutcomes() {
   return (
-    <SectionWrapper className="px-4 py-20 sm:py-28">
-      <div className="mx-auto max-w-4xl">
+    <SectionWrapper className="px-4 py-24 sm:py-32">
+      <div className="mx-auto max-w-5xl">
         <Divider />
 
-        <h2 className="text-center font-heading text-2xl font-bold text-foreground sm:text-3xl md:text-4xl">
+        <h2 className="text-center font-heading text-3xl font-bold text-foreground sm:text-4xl md:text-5xl">
           Você vai aprender a:
         </h2>
 
-        <div className="mt-12 space-y-4">
+        <div className="mt-14 space-y-5">
           {outcomes.map((outcome) => (
             <div
-              key={outcome.text}
-              className="flex items-start gap-4 rounded-lg border border-gold/10 bg-surface p-5 transition-all hover:border-gold/30"
+              key={outcome.highlight}
+              className="flex items-start gap-5 rounded-xl border border-gold/10 bg-surface p-6 sm:p-8 transition-all hover:border-gold/30"
             >
-              <outcome.icon className="mt-0.5 h-5 w-5 shrink-0 text-gold" />
-              <p className="text-sm font-medium text-foreground sm:text-base">
-                {outcome.text}
-              </p>
+              <outcome.icon className="mt-1 h-7 w-7 shrink-0 text-gold sm:h-8 sm:w-8" />
+              <div>
+                <span className="text-gradient-gold font-heading text-sm font-bold uppercase tracking-widest sm:text-base">
+                  {outcome.highlight}
+                </span>
+                <p className="mt-1 text-base font-medium text-foreground sm:text-lg">
+                  {outcome.text}
+                </p>
+              </div>
             </div>
           ))}
         </div>
